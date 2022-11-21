@@ -3,3 +3,8 @@
 ################################################################################
 
 /CulinaryRecipes/CulinaryRecipes/obj
+/CulinaryRecipes/CulinaryRecipes.Application/obj
+/CulinaryRecipes/CulinaryRecipes.Domain/obj
+/CulinaryRecipes/CulinaryRecipes.Infrastructure/obj
+/CulinaryRecipes/CulinaryRecipes.Tests/obj
+/CulinaryRecipes/.vs
