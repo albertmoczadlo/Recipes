@@ -12,7 +12,7 @@ using System.Reflection.Emit;
 
 namespace CulinaryRecipes.Infrastructure
 {
-    public class appContext: IdentityDbContext
+    public class ApplicationContext: IdentityDbContext
     {
         public DbSet<Ingredient> Ingredient { get; set; }
         public DbSet<IngredientInRecipe> IngredientInRecipe { get; set; }
@@ -20,7 +20,7 @@ namespace CulinaryRecipes.Infrastructure
         public DbSet<IngredientType> IngredientType { get; set; }
         public DbSet<IngredientTags> IngredientTags { get; set; }
 
-        public appContext(DbContextOptions options):base(options)
+        public ApplicationContext(DbContextOptions options):base(options)
         {
         }
 
